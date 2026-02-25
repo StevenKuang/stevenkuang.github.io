@@ -140,12 +140,12 @@
 			<tr>
 				<td align=center width=166px>
 					<center>
-						<span style="font-size:16px"><a href="https://scholar.google.com/citations?hl=en&user=plz6NoYAAAAJ">Liming Kuang<sup>1</sup></a></span>
+						<span style="font-size:16px"><a href="https://scholar.google.com/citations?hl=en&user=plz6NoYAAAAJ">Liming Kuang<sup>1,2</sup></a></span>
 					</center>
 				</td>
 				<td align=center width=166px>
 					<center>
-						<span style="font-size:16px"><a href="https://scholar.google.com/citations?user=-N2d-8QAAAAJ&hl=en">Yordanka Velikova<sup>1</sup></a></span>
+						<span style="font-size:16px"><a href="https://scholar.google.com/citations?user=-N2d-8QAAAAJ&hl=en">Yordanka Velikova<sup>1,2</sup></a></span>
 					</center>
 				</td>
 				<td align=center width=166px>
@@ -155,31 +155,41 @@
 				</td>
 				<td align=center width=166px>
 					<center>
-						<span style="font-size:16px"><a href="https://scholar.google.com/citations?user=suiZThYAAAAJ&hl=de">Jan-Nico Zaech<sup>2</sup></a></span>
+						<span style="font-size:16px"><a href="https://scholar.google.com/citations?user=suiZThYAAAAJ&hl=de">Jan-Nico Zaech<sup>3</sup></a></span>
 					</center>
 				</td>
 				<td align=center width=166px>
 					<center>
-						<span style="font-size:16px"><a href="https://scholar.google.com/citations?user=W43pvPkAAAAJ&hl=de">Danda Pani Paudel<sup>2</sup></a></span>
+						<span style="font-size:16px"><a href="https://scholar.google.com/citations?user=W43pvPkAAAAJ&hl=de">Danda Pani Paudel<sup>3</sup></a></span>
 					</center>
 				</td>
 				<td align=center width=166px>
 					<center>
-						<span style="font-size:16px"><a href="https://scholar.google.com/citations?user=u4rJZwUAAAAJ&hl=en">Benjamin Busam<sup>1</sup></a></span>
+						<span style="font-size:16px"><a href="https://scholar.google.com/citations?user=u4rJZwUAAAAJ&hl=en">Benjamin Busam<sup>1,2,4</sup></a></span>
 					</center>
 				</td>
 			</tr>
 		</table>
-		<table align=center width=600px>
+		<table align=center width=1000px>
 			<tr>
-				<td align=center width=300px>
+				<td align=center width=250px>
 					<center>
-						<span style="font-size:16px; color: gray;"><sup>1</sup>Technical University of Munich</span>
+						<span style="font-size:15px; color: gray;"><sup>1</sup>Technical University of Munich</span>
 					</center>
 				</td>
-				<td align=center width=300px>
+				<td align=center width=250px>
 					<center>
-						<span style="font-size:16px; color: gray;"><sup>2</sup>ETH Zurich</span>
+						<span style="font-size:15px; color: gray;"><sup>2</sup>Munich Center for Machine Learning</span>
+					</center>
+				</td>
+				<td align=center width=350px>
+					<center>
+						<span style="font-size:15px; color: gray;"><sup>3</sup>INSAIT, Sofia University "St. Kliment Ohridski"</span>
+					</center>
+				</td>
+				<td align=center width=150px>
+					<center>
+						<span style="font-size:15px; color: gray;"><sup>4</sup>3dwe.ai</span>
 					</center>
 				</td>
 			</tr>
@@ -288,30 +298,6 @@
 	</table>
 	<br>
 
-	<!-- Cross-Instance -->
-	<center>
-		<table align=center width=1000px>
-			<tr>
-				<td>
-					<center>
-						<img class="rounded" src="resources/cross_instance.jpg" width="700">
-					</center>
-				</td>
-			</tr>
-		</table>
-	</center>
-	<table align=center width=850px>
-		<tr>
-			<td>
-				<br>
-				<span style="font-size:14px">
-					<b>Cross-instance generalization.</b> ConceptPose transfers pose across different object instances within the same category, demonstrating the generality of concept-based correspondences.
-				</span>
-			</td>
-		</tr>
-	</table>
-	<br>
-
 	<hr>
 
 	<!-- Quantitative Results -->
@@ -320,7 +306,7 @@
 		<tr>
 			<td>
 				<span style="font-size:14px">
-					Comparison with state-of-the-art methods on zero-shot relative pose estimation (ADD(-S) score). ConceptPose achieves an average improvement of <b>62.8%</b> over previous best methods across all benchmarks.
+					Relative pose estimation performance comparison on REAL275, Toyota-Light, YCB-Video, and LINEMOD. We report ADD(-S) and BOP AR scores. The (%) improvement over the strongest baseline is shown in the last row. TF indicates training-free methods. Average columns marked with <b>&dagger;</b> denote averages over only REAL275 and TYOL for fair comparison with Any6D and One2Any, which were not evaluated on YCB-Video and LINEMOD.
 				</span>
 			</td>
 		</tr>
@@ -329,82 +315,140 @@
 	<center>
 		<table class="results-table">
 			<tr>
-				<th>Method</th>
-				<th>REAL275</th>
-				<th>TYO-L</th>
-				<th>YCB-V</th>
-				<th>LM</th>
-				<th>Average</th>
+				<th rowspan="2">Method</th>
+				<th rowspan="2">TF</th>
+				<th colspan="2">REAL275</th>
+				<th colspan="2">Toyota-Light</th>
+				<th colspan="2">YCB-Video</th>
+				<th colspan="2">LINEMOD</th>
+				<th colspan="2">Average</th>
 			</tr>
 			<tr>
-				<td>Oryon (ECCV 2024)</td>
-				<td>53.5</td>
-				<td>19.2</td>
-				<td>22.6</td>
-				<td>27.6</td>
-				<td>30.7</td>
+				<th>ADD(-S)</th>
+				<th>BOP AR</th>
+				<th>ADD(-S)</th>
+				<th>BOP AR</th>
+				<th>ADD(-S)</th>
+				<th>BOP AR</th>
+				<th>ADD(-S)</th>
+				<th>BOP AR</th>
+				<th>ADD(-S)</th>
+				<th>BOP AR</th>
 			</tr>
 			<tr>
-				<td>3DCOMPAT (CVPR 2024)</td>
-				<td>39.9</td>
-				<td>34.6</td>
-				<td>12.1</td>
-				<td>25.1</td>
-				<td>27.9</td>
+				<td style="text-align:left">SIFT</td>
+				<td>&cross;</td>
+				<td>21.6</td>
+				<td>38.8</td>
+				<td>16.5</td>
+				<td>32.4</td>
+				<td>13.9</td>
+				<td>19.3</td>
+				<td>10.8</td>
+				<td>18.7</td>
+				<td>15.7</td>
+				<td>27.3</td>
 			</tr>
 			<tr>
-				<td>MFOS (ECCV 2024)</td>
-				<td>48.3</td>
-				<td>19.4</td>
-				<td>15.2</td>
-				<td>21.1</td>
+				<td style="text-align:left">ObjectMatch</td>
+				<td>&cross;</td>
+				<td>13.4</td>
 				<td>26.0</td>
+				<td>5.4</td>
+				<td>9.8</td>
+				<td>3.7</td>
+				<td>6.0</td>
+				<td>11.1</td>
+				<td>12.2</td>
+				<td>8.4</td>
+				<td>13.5</td>
 			</tr>
 			<tr>
-				<td>ZS6D (ECCV 2024)</td>
-				<td>23.9</td>
-				<td>22.2</td>
-				<td>9.2</td>
-				<td>21.1</td>
-				<td>19.1</td>
+				<td style="text-align:left">Oryon</td>
+				<td>&cross;</td>
+				<td>34.9</td>
+				<td>46.5</td>
+				<td>22.9</td>
+				<td>34.1</td>
+				<td>12.8</td>
+				<td>19.4</td>
+				<td>20.4</td>
+				<td>25.3</td>
+				<td>22.8</td>
+				<td>31.3</td>
+			</tr>
+			<tr>
+				<td style="text-align:left">Horyon</td>
+				<td>&cross;</td>
+				<td>51.6</td>
+				<td><u>57.9</u></td>
+				<td>25.1</td>
+				<td>33.0</td>
+				<td><u>22.6</u></td>
+				<td><u>28.6</u></td>
+				<td><u>27.6</u></td>
+				<td><b>34.4</b></td>
+				<td><u>31.7</u></td>
+				<td><u>38.5</u></td>
+			</tr>
+			<tr>
+				<td style="text-align:left">Any6D</td>
+				<td>&cross;</td>
+				<td><u>53.5</u></td>
+				<td>51.0</td>
+				<td><u>32.2</u></td>
+				<td><u>43.3</u></td>
+				<td>--</td>
+				<td>--</td>
+				<td>--</td>
+				<td>--</td>
+				<td>(42.9<sup>&dagger;</sup>)</td>
+				<td>(47.2<sup>&dagger;</sup>)</td>
+			</tr>
+			<tr>
+				<td style="text-align:left">One2Any</td>
+				<td>&cross;</td>
+				<td>41.0</td>
+				<td>54.9</td>
+				<td>34.6</td>
+				<td>42.0</td>
+				<td>--</td>
+				<td>--</td>
+				<td>--</td>
+				<td>--</td>
+				<td>(37.8<sup>&dagger;</sup>)</td>
+				<td>(48.5<sup>&dagger;</sup>)</td>
 			</tr>
 			<tr style="background-color: #e8f4f8;">
-				<td><b>ConceptPose (Ours)</b></td>
-				<td class="highlight">71.5</td>
-				<td class="highlight">55.0</td>
-				<td class="highlight">41.2</td>
-				<td class="highlight">38.6</td>
-				<td class="highlight">51.6</td>
+				<td style="text-align:left"><b>Ours</b></td>
+				<td><b>&check;</b></td>
+				<td><b>71.5</b></td>
+				<td><b>60.4</b></td>
+				<td><b>55.0</b></td>
+				<td><b>51.6</b></td>
+				<td><b>41.2</b></td>
+				<td><b>32.8</b></td>
+				<td><b>38.6</b></td>
+				<td><u>31.0</u></td>
+				<td><b>51.6</b> (<b>63.3</b><sup>&dagger;</sup>)</td>
+				<td><b>44.0</b> (<b>56.0</b><sup>&dagger;</sup>)</td>
+			</tr>
+			<tr style="background-color: #f0f9f0;">
+				<td style="text-align:left">&Delta;(%)</td>
+				<td></td>
+				<td style="color:#2e7d32">+33.6%</td>
+				<td style="color:#2e7d32">+4.3%</td>
+				<td style="color:#2e7d32">+59.0%</td>
+				<td style="color:#2e7d32">+19.2%</td>
+				<td style="color:#2e7d32">+82.3%</td>
+				<td style="color:#2e7d32">+14.7%</td>
+				<td style="color:#2e7d32">+39.9%</td>
+				<td style="color:#888">-9.9%</td>
+				<td style="color:#2e7d32">+62.8%</td>
+				<td style="color:#2e7d32">+14.3%</td>
 			</tr>
 		</table>
 	</center>
-	<br>
-
-	<hr>
-
-	<!-- Ablation -->
-	<center><h1>Effect of Concept Quantity</h1></center>
-	<center>
-		<table align=center width=1000px>
-			<tr>
-				<td>
-					<center>
-						<img class="rounded" src="resources/concept_ablation.jpg" width="700">
-					</center>
-				</td>
-			</tr>
-		</table>
-	</center>
-	<table align=center width=850px>
-		<tr>
-			<td>
-				<br>
-				<span style="font-size:14px">
-					Ablation study on the number of concepts used per object. Performance improves with more concepts up to a saturation point, demonstrating that richer concept descriptions lead to more distinctive and reliable correspondences.
-				</span>
-			</td>
-		</tr>
-	</table>
 	<br>
 
 	<hr>
