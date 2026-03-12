@@ -10,4 +10,12 @@ My research focuses on active pose-free 3D reconstruction with dynamic distracto
 
 Previously, I completed my M.Sc. at TUM's [Chair for Computer Aided Medical Procedures (CAMP)](https://www.cs.cit.tum.de/camp/start/) under [Prof. Dr. Nassir Navab](https://scholar.google.com/citations?user=kzoVUPYAAAAJ&hl=en).
 
+## Education
+
+- **Ph.D. in Informatics**, Technische Universität München, Mar. 2026 – Present
+- **M.Sc. Informatics**, Technische Universität München, Apr. 2023 – Feb. 2026
+- **B.Sc. Informatics**, Technische Universität München, Apr. 2019 – Feb. 2023
+- **B.Sc. Informatics**, Goethe-Universität Frankfurt, Mar. 2018 – Mar. 2019
+- **High School**, Yali High School, Changsha, Hunan, China, 2013 – 2016
+
 {% include_relative _includes/publications.md %}
