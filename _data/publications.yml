@@ -1,0 +1,17 @@
+main:
+
+  - title: "ConceptPose: Training-Free Model-Free Zero-Shot Relative 6D Pose Estimation"
+    authors: <strong>Liming Kuang</strong>, Mahdi Saleh, Yordanka Velikova, Benjamin Busam, Nassir Navab
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2512.09056
+    code: https://github.com/StevenKuang/concept-pose
+    page: /conceptpose/
+    bibtex: /conceptpose/resources/bibtex.txt
+    image: ./conceptpose/resources/teaser.jpg
+    notes: Spotlight
+
+  - title: "CathFlow: Self-Supervised Segmentation of Catheters in Interventional Ultrasound Using Optical Flow and Transformers"
+    authors: Alex Ranne, <strong>Liming Kuang</strong>, Yordanka Velikova, Nassir Navab, Ferdinando Rodriguez y Baena
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2024.

@@ -1,0 +1,46 @@
+# Basic Information
+title: Liming Kuang
+position: Ph.D. Student
+affiliation: Technical University of Munich (TUM)
+affiliation_link: https://www.tum.de
+subaffiliation: Chair of Photogrammetry and Remote Sensing
+subaffiliation_link: https://www.3dv.in.tum.de/
+email: liming.kuang (at) tum.de
+
+# Search Engine Optimization (SEO)
+keywords: Liming Kuang, computer vision, 3D reconstruction, pose estimation, TUM
+description: Liming Kuang - Ph.D. Student at Technical University of Munich (TUM), researching 3D reconstruction and pose estimation.
+canonical: https://stevenlk.xyz
+
+# Links
+google_scholar: https://scholar.google.com/citations?hl=en&user=plz6NoYAAAAJ
+cv_link: assets/files/cv.pdf
+github_link: https://github.com/StevenKuang
+linkedin: https://www.linkedin.com/in/limingk/
+
+# Images (e.g., your profile picture and your website's favicon)
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: true
+
+# Auto Dark Mode
+auto_dark_mode: true
+
+# Font
+font: "Serif" # or "Sans Serif"
+
+# Use this project as a remote theme for GitHub Pages
+remote_theme: yaoyao-liu/minimal-light
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CLAUDE.md
