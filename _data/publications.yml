@@ -1,5 +1,10 @@
 main:
 
+  - title: "Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs"
+    authors: Hiran Sarkar, <strong>Liming Kuang</strong>, Yordanka Velikova, Benjamin Busam
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+
   - title: "ConceptPose: Training-Free Zero-Shot Object Pose Estimation using Concept Vectors"
     authors: <strong>Liming Kuang</strong>, Yordanka Velikova, Mahdi Saleh, Jan-Nico Zaech, Danda Pani Paudel, Benjamin Busam
     conference_short: CVPR
@@ -9,7 +14,6 @@ main:
     page: https://stevenlk.xyz/conceptpose/
     bibtex: /conceptpose/resources/bibtex.txt
     image: ./conceptpose/resources/teaser.jpg
-    notes: Spotlight
 
   - title: "Topology-Aware and Highly Generalizable Deep Reinforcement Learning for Efficient Retrieval in Multi-Deep Storage Systems"
     authors: Funing Li, Yuan Tian, Ruben Noortwyck, Jifeng Zhou, <strong>Liming Kuang</strong>, Robert Schulz
