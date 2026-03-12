@@ -14,6 +14,7 @@ main:
     authors: Hiran Sarkar, <strong>Liming Kuang</strong>, Yordanka Velikova, Benjamin Busam
     conference_short: CVPR 2026
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    image: ./assets/img/teaser_noderf.png
 
   - title: "Topology-Aware and Highly Generalizable Deep Reinforcement Learning for Efficient Retrieval in Multi-Deep Storage Systems"
     authors: Funing Li, Yuan Tian, Ruben Noortwyck, Jifeng Zhou, <strong>Liming Kuang</strong>, Robert Schulz
@@ -36,4 +37,5 @@ main:
     pdf: https://arxiv.org/abs/2307.06872
     page: https://ipv6hitlist.github.io
     code: https://github.com/tumi8/tma-23-target-generation
+    image: ./assets/img/teaser_targetaquired.png
     notes: Best Paper Award

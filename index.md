@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a first-year Ph.D. student at the [Professorship of Photogrammetry and Remote Sensing](https://www.asg.ed.tum.de/pf/home/) at [Technical University of Munich (TUM)](https://www.tum.de), supervised by [Prof. Dr. Benjamin Busam](https://scholar.google.com/citations?user=u4rJZwUAAAAJ&hl=en). My research is conducted in collaboration with [Huawei Noah's Ark Lab](https://dev3.noahlab.com.hk/index.html).
+I am a Ph.D. student at the [Professorship of Photogrammetry and Remote Sensing](https://www.asg.ed.tum.de/pf/home/) at [Technical University of Munich (TUM)](https://www.tum.de), supervised by [Prof. Dr. Benjamin Busam](https://scholar.google.com/citations?user=u4rJZwUAAAAJ&hl=en). My research is conducted in collaboration with [Huawei Noah's Ark Lab London](https://dev3.noahlab.com.hk/index.html).
 
 My research focuses on active pose-free 3D reconstruction with dynamic distractors — using monocular RGB input to simultaneously explore unknown environments, build clean static 3D Gaussian Splatting representations, and handle dynamic objects in real time.
 
