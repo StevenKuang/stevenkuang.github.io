@@ -16,6 +16,9 @@
       <div class="title"><strong>{{ education.institution }}</strong></div>
       <div><strong>Degree:</strong> {{ education.degree }}</div>
       <div><strong>Duration:</strong> {{ education.duration }}</div>
+      {% if education.location %}
+      <div><strong>Location:</strong> {{ education.location }}</div>
+      {% endif %}
       {% if education.supervisors %}
       <div><strong>Supervisors:</strong> {{ education.supervisors }}</div>
       {% endif %}

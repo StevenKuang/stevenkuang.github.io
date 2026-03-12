@@ -10,9 +10,9 @@ My research focuses on active pose-free 3D reconstruction with dynamic distracto
 
 Previously, I completed my M.Sc. at TUM's [Chair for Computer Aided Medical Procedures (CAMP)](https://www.cs.cit.tum.de/camp/start/) under [Prof. Dr. Nassir Navab](https://scholar.google.com/citations?user=kzoVUPYAAAAJ&hl=en).
 
-{% include_relative _includes/education.md %}
-
 {% include_relative _includes/publications.md %}
+
+{% include_relative _includes/education.md %}
 
 ## Hobbies
 
