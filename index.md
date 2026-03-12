@@ -4,18 +4,17 @@ layout: homepage
 
 ## About Me
 
-I am a first-year Ph.D. student at the [Chair of Photogrammetry and Remote Sensing](https://www.3dv.in.tum.de/) at [Technical University of Munich (TUM)](https://www.tum.de), supervised by [Prof. Dr. Benjamin Busam](https://scholar.google.com/citations?user=u4rJZwUAAAAJ&hl=en). My research is conducted in collaboration with [Huawei's Ark London Research Institute](https://www.huawei.com/).
+I am a first-year Ph.D. student at the [Professorship of Photogrammetry and Remote Sensing](https://www.asg.ed.tum.de/pf/home/) at [Technical University of Munich (TUM)](https://www.tum.de), supervised by [Prof. Dr. Benjamin Busam](https://scholar.google.com/citations?user=u4rJZwUAAAAJ&hl=en). My research is conducted in collaboration with [Huawei Noah's Ark Lab](https://dev3.noahlab.com.hk/index.html).
 
 My research focuses on active pose-free 3D reconstruction with dynamic distractors — using monocular RGB input to simultaneously explore unknown environments, build clean static 3D Gaussian Splatting representations, and handle dynamic objects in real time.
 
 Previously, I completed my M.Sc. at TUM's [Chair for Computer Aided Medical Procedures (CAMP)](https://www.cs.cit.tum.de/camp/start/) under [Prof. Dr. Nassir Navab](https://scholar.google.com/citations?user=kzoVUPYAAAAJ&hl=en).
 
-## Education
-
-- **Ph.D. in Informatics**, Technische Universität München, Mar. 2026 – Present
-- **M.Sc. Informatics**, Technische Universität München, Apr. 2023 – Feb. 2026
-- **B.Sc. Informatics**, Technische Universität München, Apr. 2019 – Feb. 2023
-- **B.Sc. Informatics**, Goethe-Universität Frankfurt, Mar. 2018 – Mar. 2019
-- **High School**, Yali High School, Changsha, Hunan, China, 2013 – 2016
+{% include_relative _includes/education.md %}
 
 {% include_relative _includes/publications.md %}
+
+## Hobbies
+
+- Semi-professional photographer: [@_steven_kuang_](https://www.instagram.com/_steven_kuang_/)
+- Passionate home barista since 2022
