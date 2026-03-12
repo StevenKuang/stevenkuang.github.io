@@ -1,17 +1,35 @@
 main:
 
-  - title: "ConceptPose: Training-Free Model-Free Zero-Shot Relative 6D Pose Estimation"
-    authors: <strong>Liming Kuang</strong>, Mahdi Saleh, Yordanka Velikova, Benjamin Busam, Nassir Navab
+  - title: "ConceptPose: Training-Free Zero-Shot Object Pose Estimation using Concept Vectors"
+    authors: <strong>Liming Kuang</strong>, Yordanka Velikova, Mahdi Saleh, Jan-Nico Zaech, Danda Pani Paudel, Benjamin Busam
     conference_short: CVPR
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
     pdf: https://arxiv.org/abs/2512.09056
     code: https://github.com/StevenKuang/concept-pose
-    page: /conceptpose/
+    page: https://stevenlk.xyz/conceptpose/
     bibtex: /conceptpose/resources/bibtex.txt
     image: ./conceptpose/resources/teaser.jpg
     notes: Spotlight
+
+  - title: "Topology-Aware and Highly Generalizable Deep Reinforcement Learning for Efficient Retrieval in Multi-Deep Storage Systems"
+    authors: Funing Li, Yuan Tian, Ruben Noortwyck, Jifeng Zhou, <strong>Liming Kuang</strong>, Robert Schulz
+    conference_short: JIM
+    conference: Journal of Intelligent Manufacturing, 2025.
+    pdf: https://arxiv.org/abs/2506.14787
+    image: ./assets/img/teaser_topology.png
 
   - title: "CathFlow: Self-Supervised Segmentation of Catheters in Interventional Ultrasound Using Optical Flow and Transformers"
     authors: Alex Ranne, <strong>Liming Kuang</strong>, Yordanka Velikova, Nassir Navab, Ferdinando Rodriguez y Baena
     conference_short: IROS
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2403.14465
+    image: ./assets/img/teaser_cathflow.png
+
+  - title: "Target Acquired? Evaluating Target Generation Algorithms for IPv6"
+    authors: Lion Steger, <strong>Liming Kuang</strong>, Johannes Zirngibl, Georg Carle, Oliver Gasser
+    conference_short: TMA
+    conference: 7th Network Traffic Measurement and Analysis Conference <strong>(TMA)</strong>, 2023.
+    pdf: https://arxiv.org/abs/2307.06872
+    page: https://ipv6hitlist.github.io
+    code: https://github.com/tumi8/tma-23-target-generation
+    notes: Best Paper Award
