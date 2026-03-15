@@ -14,6 +14,8 @@ main:
     authors: Hiran Sarkar, <strong>Liming Kuang</strong>, Yordanka Velikova, Benjamin Busam
     conference_short: CVPR 2026
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2603.12078
+    page: https://around-star.github.io/node-rf/
     image: ./assets/img/teaser_noderf.png
 
   - title: "Topology-Aware and Highly Generalizable Deep Reinforcement Learning for Efficient Retrieval in Multi-Deep Storage Systems"
