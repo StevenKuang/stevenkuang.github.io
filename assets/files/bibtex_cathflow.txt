@@ -1,0 +1,6 @@
+@inproceedings{ranne2024cathflow,
+    title={CathFlow: Self-Supervised Segmentation of Catheters in Interventional Ultrasound Using Optical Flow and Transformers},
+    author={Ranne, Alex and Kuang, Liming and Velikova, Yordanka and Navab, Nassir and Rodriguez y Baena, Ferdinando},
+    booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    year={2024}
+}

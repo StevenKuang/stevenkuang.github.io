@@ -1,0 +1,11 @@
+@article{li_topology-aware_2025,
+    title = {Topology-aware and highly generalizable deep reinforcement learning for efficient retrieval in multi-deep storage systems},
+    issn = {1572-8145},
+    url = {https://doi.org/10.1007/s10845-025-02654-w},
+    doi = {10.1007/s10845-025-02654-w},
+    abstract = {In modern industrial and logistics environments, the rapid expansion of fast delivery services has heightened the demand for storage systems that combine high efficiency with increased density. Multi-deep autonomous vehicle storage and retrieval systems present a viable solution for achieving greater storage density. However, these systems encounter significant challenges during retrieval operations due to lane blockages. A conventional approach to mitigate this issue involves storing items with homogeneous characteristics in a single lane, but this strategy restricts the flexibility and adaptability of multi-deep storage systems. Building on this background, this work presents a deep reinforcement learning-based framework to optimize the retrieval process in multi-deep storage systems with heterogeneous item configurations. Each item is associated with a specific due date, and objective function is total tardiness minimization. To effectively capture the system's topology, we introduce a graph-based state representation that integrates both item attributes and the local topological structure of the multi-deep warehouse. For processing this representation, we design a novel neural network architecture that combines a Graph Neural Network (GNN) with a Transformer model. The GNN encodes topological and item-specific information into embeddings for all directly accessible items, while the Transformer maps these embeddings into global priority assignments. The Transformer's strong generalization capability further allows our approach to be applied to storage systems with diverse layouts. Extensive numerical experiments, including comparisons with heuristic methods, demonstrate the superiority of the proposed neural network architecture and the effectiveness of the trained agent in optimizing retrieval tardiness.},
+    journal = {Journal of Intelligent Manufacturing},
+    author = {Li, Funing and Tian, Yuan and Noortwyck, Ruben and Zhou, Jifeng and Kuang, Liming and Schulz, Robert},
+    month = sep,
+    year = {2025},
+}

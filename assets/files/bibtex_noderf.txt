@@ -1,0 +1,6 @@
+@inproceedings{sarkar2026noderf,
+    title={Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs},
+    author={Sarkar, Hiran and Kuang, Liming and Velikova, Yordanka and Busam, Benjamin},
+    booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2026}
+}
