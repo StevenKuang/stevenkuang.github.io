@@ -10,6 +10,8 @@ I am advised by [Prof. Dr. Benjamin Busam](https://scholar.google.com/citations?
 
 {% include_relative _includes/publications.md %}
 
+{% include_relative _includes/service.md %}
+
 {% include_relative _includes/education.md %}
 
 ## Hobbies
