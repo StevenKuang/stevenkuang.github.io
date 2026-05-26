@@ -1,8 +1,17 @@
-<h2 id="service" style="margin: 2px 0px 8px;">Academic Service</h2>
+<h2 id="services">Services</h2>
 
-<p style="margin-bottom: 4px;"><strong>Reviewer for:</strong></p>
-<ul style="margin-top: 0;">
-{% for entry in site.data.service.reviewer %}
-  <li><em>{{ entry.venue }}</em>, {{ entry.year }}</li>
+<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+
+<ul style="margin:0 0 5px;">
+{% for entry in site.data.service.conference_reviewers %}
+  <li>{{ entry.venue }}{% if entry.year %}, {{ entry.year }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
+
+<ul style="margin:0 0 20px;">
+{% for entry in site.data.service.journal_reviewers %}
+  <li>{{ entry.venue }}{% if entry.year %}, {{ entry.year }}{% endif %}</li>
 {% endfor %}
 </ul>

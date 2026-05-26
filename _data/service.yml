@@ -1,7 +1,7 @@
-reviewer:
+conference_reviewers:
   - venue: European Conference on Computer Vision (ECCV)
     year: 2026
+
+journal_reviewers:
   - venue: IEEE Robotics and Automation Letters (RA-L)
-    year: 2026
   - venue: npj Artificial Intelligence (Nature Portfolio)
-    year: 2026
