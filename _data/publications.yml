@@ -19,6 +19,13 @@ main:
     bibtex: /assets/files/bibtex_noderf.txt
     image: ./assets/img/teaser_noderf.png
 
+  - title: "Still on Target? An Evaluation of IPv6 Target Generation Algorithms"
+    authors: Lion Steger, <strong>Liming Kuang</strong>, Johannes Zirngibl, Georg Carle, Oliver Gasser
+    conference_short: IEEE TNSM 2026
+    conference: IEEE Transactions on Network and Service Management <strong>(TNSM)</strong>, 2026.
+    pdf: https://ieeexplore.ieee.org/abstract/document/11574025/
+    page: https://ipv6hitlist.github.io
+
   - title: "Topology-Aware and Highly Generalizable Deep Reinforcement Learning for Efficient Retrieval in Multi-Deep Storage Systems"
     authors: Funing Li, Yuan Tian, Ruben Noortwyck, Jifeng Zhou, <strong>Liming Kuang</strong>, Robert Schulz
     conference_short: JIM 2025
