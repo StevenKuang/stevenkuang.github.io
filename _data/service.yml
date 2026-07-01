@@ -1,6 +1,8 @@
 conference_reviewers:
   - venue: European Conference on Computer Vision (ECCV)
     year: 2026
+  - venue: Conference on Neural Information Processing Systems (NeurIPS)
+    year: 2026
 
 journal_reviewers:
   - venue: IEEE Robotics and Automation Letters (RA-L)
