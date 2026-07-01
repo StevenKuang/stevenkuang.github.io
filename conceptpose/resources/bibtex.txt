@@ -1,6 +1,8 @@
-@inproceedings{kuang2026conceptpose,
-    title={ConceptPose: Training-Free Zero-Shot Object Pose Estimation using Concept Vectors},
-    author={Kuang, Liming and Velikova, Yordanka and Saleh, Mahdi and Zaech, Jan-Nico and Paudel, Danda Pani and Busam, Benjamin},
-    booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year={2026}
+@InProceedings{Kuang_2026_CVPR,
+    author    = {Kuang, Liming and Velikova, Yordanka and Saleh, Mahdi and Zaech, Jan-Nico and Paudel, Danda Pani and Busam, Benjamin},
+    title     = {ConceptPose: Training-Free Zero-Shot Object Pose Estimation using Concept Vectors},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {26582-26592}
 }

@@ -1,0 +1,10 @@
+@ARTICLE{11574025,
+  author={Steger, Lion and Kuang, Liming and Zirngibl, Johannes and Carle, Georg and Gasser, Oliver},
+  journal={IEEE Transactions on Network and Service Management},
+  title={Still on Target? An Evaluation of IPv6 Target Generation Algorithms},
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Algorithms;Seeds (agriculture);Protocols;IP networks;Measurement;Radio access networks;Regional area networks;Internet;Probes;Conferences;Internet measurements;IPv6;IPv6 scanning;machine learning;target generation},
+  doi={10.1109/TNSM.2026.3705935}}
