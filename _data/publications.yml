@@ -4,6 +4,7 @@ main:
     authors: <strong>Liming Kuang</strong>, Yordanka Velikova, Mahdi Saleh, Jan-Nico Zaech, Danda Pani Paudel, Benjamin Busam
     conference_short: CVPR 2026
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://openaccess.thecvf.com/content/CVPR2026/html/Kuang_ConceptPose_Training-Free_Zero-Shot_Object_Pose_Estimation_using_Concept_Vectors_CVPR_2026_paper.html
     arxiv: https://arxiv.org/abs/2512.09056
     code: https://github.com/StevenKuang/concept-pose
     page: https://stevenlk.xyz/conceptpose/
@@ -14,6 +15,7 @@ main:
     authors: Hiran Sarkar, <strong>Liming Kuang</strong>, Yordanka Velikova, Benjamin Busam
     conference_short: CVPR 2026
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://openaccess.thecvf.com/content/CVPR2026/html/Sarkar_Node-RF_Learning_Generalized_Continuous_Space-Time_Scene_Dynamics_with_Neural_ODE-based_CVPR_2026_paper.html
     arxiv: https://arxiv.org/abs/2603.12078
     page: https://around-star.github.io/node-rf/
     bibtex: /assets/files/bibtex_noderf.txt
@@ -31,6 +33,7 @@ main:
     authors: Funing Li, Yuan Tian, Ruben Noortwyck, Jifeng Zhou, <strong>Liming Kuang</strong>, Robert Schulz
     conference_short: JIM 2025
     conference: Journal of Intelligent Manufacturing, 2025.
+    pdf: https://link.springer.com/article/10.1007/s10845-025-02654-w
     arxiv: https://arxiv.org/abs/2506.14787
     bibtex: /assets/files/bibtex_topology.txt
     image: ./assets/img/teaser_topology.png
@@ -39,6 +42,7 @@ main:
     authors: Alex Ranne*, <strong>Liming Kuang*</strong>, Yordanka Velikova*, Nassir Navab, Ferdinando Rodriguez y Baena
     conference_short: IROS 2024
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/document/10802113/
     arxiv: https://arxiv.org/abs/2403.14465
     bibtex: /assets/files/bibtex_cathflow.txt
     image: ./assets/img/teaser_cathflow.png
@@ -47,6 +51,7 @@ main:
     authors: Lion Steger, <strong>Liming Kuang</strong>, Johannes Zirngibl, Georg Carle, Oliver Gasser
     conference_short: TMA 2023
     conference: 7th Network Traffic Measurement and Analysis Conference <strong>(TMA)</strong>, 2023.
+    pdf: https://ieeexplore.ieee.org/document/10199073/
     arxiv: https://arxiv.org/abs/2307.06872
     page: https://ipv6hitlist.github.io
     code: https://github.com/tumi8/tma-23-target-generation
