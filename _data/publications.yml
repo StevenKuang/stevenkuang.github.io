@@ -25,6 +25,7 @@ main:
     conference: IEEE Transactions on Network and Service Management <strong>(TNSM)</strong>, 2026.
     pdf: https://ieeexplore.ieee.org/abstract/document/11574025/
     page: https://ipv6hitlist.github.io
+    image: ./assets/img/teaser_stillontarget.png
 
   - title: "Topology-Aware and Highly Generalizable Deep Reinforcement Learning for Efficient Retrieval in Multi-Deep Storage Systems"
     authors: Funing Li, Yuan Tian, Ruben Noortwyck, Jifeng Zhou, <strong>Liming Kuang</strong>, Robert Schulz
