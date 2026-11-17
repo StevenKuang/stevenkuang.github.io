@@ -1,5 +1,15 @@
 main:
 
+  - title: "ODeform: Learning Continuous 4D Motion for Shape Deformation with Neural ODEs"
+    authors: Yordanka Velikova, Mahdi Saleh, <strong>Liming Kuang</strong>, Benjamin Busam
+    conference_short: IROS 2026
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2026.
+    arxiv: https://arxiv.org/abs/2607.20670
+    code: https://github.com/danivelikova/odeform
+    page: https://danivelikova.github.io/odeform/
+    bibtex: /assets/files/bibtex_odeform.txt
+    image: ./assets/img/teaser_odeform.jpg
+
   - title: "ConceptPose: Training-Free Zero-Shot Object Pose Estimation using Concept Vectors"
     authors: <strong>Liming Kuang</strong>, Yordanka Velikova, Mahdi Saleh, Jan-Nico Zaech, Danda Pani Paudel, Benjamin Busam
     conference_short: CVPR 2026
@@ -32,8 +42,8 @@ main:
 
   - title: "Topology-Aware and Highly Generalizable Deep Reinforcement Learning for Efficient Retrieval in Multi-Deep Storage Systems"
     authors: Funing Li, Yuan Tian, Ruben Noortwyck, Jifeng Zhou, <strong>Liming Kuang</strong>, Robert Schulz
-    conference_short: JIM 2025
-    conference: Journal of Intelligent Manufacturing, 2025.
+    conference_short: JIM 2026
+    conference: Journal of Intelligent Manufacturing, 2026.
     pdf: https://link.springer.com/article/10.1007/s10845-025-02654-w
     arxiv: https://arxiv.org/abs/2506.14787
     bibtex: /assets/files/bibtex_topology.txt

@@ -3,8 +3,7 @@
   journal={IEEE Transactions on Network and Service Management},
   title={Still on Target? An Evaluation of IPv6 Target Generation Algorithms},
   year={2026},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={23},
+  pages={6082--6097},
   keywords={Algorithms;Seeds (agriculture);Protocols;IP networks;Measurement;Radio access networks;Regional area networks;Internet;Probes;Conferences;Internet measurements;IPv6;IPv6 scanning;machine learning;target generation},
   doi={10.1109/TNSM.2026.3705935}}
